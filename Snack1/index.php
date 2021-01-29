@@ -13,28 +13,28 @@ Olimpia Milano - Cantù | 55 - 60 -->
 <?php
 $matches = [
     "partita1" => [
-        "home" => ["Finale Ligure", 90],
-        "away" => ["Pietra Ligure", 78]
+                    "home" => ["Finale Ligure", 90],
+                    "away" => ["Pietra Ligure", 78]
 
     ],
     "partita2" => [
-        "home" => ["Simpson", 54],
-        "away" => ["Griffin", 69]
+                    "home" => ["Simpson", 54],
+                    "away" => ["Griffin", 69]
 
 
 
     ],
     "partita3" => [
-        "home" => ["Genoa", 111],
-        "away" => ["Samp", 66]
+                    "home" => ["Genoa", 111],
+                    "away" => ["Samp", 66]
 
 
 
     ],
     "partita4" => [
-        "home" => ["Bezos Team", 47],
-        "away" => ["Musk Team", 99]
-        
+                    "home" => ["Bezos Team", 47],
+                    "away" => ["Musk Team", 99]
+                    
     ],
 
 ];
