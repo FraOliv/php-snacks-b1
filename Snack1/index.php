@@ -1,5 +1,5 @@
 <!-- PHP Snack 1:
-Creiamo un array 'matches' contenente altri array i
+Creiamo un array "matches" contenente altri array i
 quali rappresentano delle partite di basket di
 un’ipotetica tappa del calendario. Ogni array della
 partita avrà una squadra di casa e una squadra
@@ -58,10 +58,10 @@ $matches = [
         <?php
        
         foreach ($matches as $match) {
-            $HomeTeam = $match['home'][0];
-            $AwayTeam = $match['away'][0];
-            $HomeScore = $match['home'][1];
-            $AwayScore = $match['away'][1];
+            $HomeTeam = $match["home"][0];
+            $AwayTeam = $match["away"][0];
+            $HomeScore = $match["home"][1];
+            $AwayScore = $match["away"][1];
 
             echo "<h2>
             $HomeTeam - $AwayTeam | $HomeScore - $AwayScore</h2>";
