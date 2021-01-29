@@ -13,27 +13,27 @@ Olimpia Milano - Cantù | 55 - 60 -->
 <?php
 $matches = [
     "partita1" => [
-        "home" => ["Finale Ligure", 98],
-        "away" => ["Pietra Ligure", 74]
+        "home" => ["Finale Ligure", 90],
+        "away" => ["Pietra Ligure", 78]
 
     ],
     "partita2" => [
-        "home" => ["Simpson", 98],
-        "away" => ["Griffin", 74]
+        "home" => ["Simpson", 54],
+        "away" => ["Griffin", 69]
 
 
 
     ],
     "partita3" => [
-        "home" => ["Genoa", 98],
-        "away" => ["Samp", 74]
+        "home" => ["Genoa", 111],
+        "away" => ["Samp", 66]
 
 
 
     ],
     "partita4" => [
-        "home" => ["Bezos Team", 98],
-        "away" => ["Musk Team", 74]
+        "home" => ["Bezos Team", 47],
+        "away" => ["Musk Team", 99]
         
     ],
 
@@ -54,7 +54,7 @@ $matches = [
 
 <body>
 
-    <ul style="text-align: center;">
+  
         <?php
        
         foreach ($matches as $match) {
@@ -63,11 +63,11 @@ $matches = [
             $HomeScore = $match['home'][1];
             $AwayScore = $match['away'][1];
 
-            echo "<li>
-            $HomeTeam - $AwayTeam | $HomeScore - $AwayScore</li>";
+            echo "<h2>
+            $HomeTeam - $AwayTeam | $HomeScore - $AwayScore</h2>";
         }
         ?>
-    </li>
+  
 
 </body>
 
