@@ -14,21 +14,10 @@ $age = $_GET["age"];
 ?>
 
 
-<?php
 
 
-if (
-    strlen($name) > 3 && strpos($mail, ".") && strpos($mail, "@")  &&
-    is_numeric($age)
-) {
-    echo "Accesso riuscito";
-} else {
-    echo "accesso non riuscito";
-};
-/* 
-var_dump(strlen($name) > 3 , strpos($mail, $Must) ,
-    is_numeric($age)) */
-?>
+
+
 
 
 <!DOCTYPE html>
@@ -41,7 +30,7 @@ var_dump(strlen($name) > 3 , strpos($mail, $Must) ,
 </head>
 
 <body>
-    First name:
+
 
     <form action="" name="" method="get">
         <input type="text" name="name" value="inserisci il tuo nome"> <br>
@@ -49,6 +38,21 @@ var_dump(strlen($name) > 3 , strpos($mail, $Must) ,
         <input type="text" name="mail" value="inserisci la tua mail"><br>
         <input type="submit" value="cliccaduro">
     </form>
+
+    <?php
+
+    if (
+        strlen($name) > 3 && strpos($mail, ".") && strpos($mail, "@")  &&
+        is_numeric($age)
+    ) {
+        echo "Accesso riuscito";
+    } else {
+        echo "accesso non riuscito";
+    };
+    /* 
+var_dump(strlen($name) > 3 , strpos($mail, $Must) ,
+    is_numeric($age)) */
+    ?>
 
 </body>
 
